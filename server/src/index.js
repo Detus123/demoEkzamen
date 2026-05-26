@@ -77,3 +77,4 @@ app.post('/api/reviews', auth, async (req, res) => {
   res.json({ message: 'Отзыв добавлен' })
 })
 app.listen(3000, () => console.log('Backend running on http://localhost:3000'))
+
